@@ -1,9 +1,9 @@
-# Community Participation Guidelines
+# Diretrizes para a Participação Comunitária
 
-This repository is governed by Mozilla's code of conduct and etiquette guidelines.
-For more details, please read the
-[Mozilla Community Participation Guidelines](https://www.mozilla.org/about/governance/policies/participation/).
+Este repositório é administrado pelo código de conduta e diretrizes de etiqueta da Mozilla.
+Para mais detalhes, por favor, leia as
+[Diretrizes de Participação da Comunidade da Mozilla](https://www.mozilla.org/about/governance/policies/participation/).
 
-## How to Report
+## Como Reportar
 
-For more information on how to report violations of the Community Participation Guidelines, please read our [How to Report](https://www.mozilla.org/about/governance/policies/participation/reporting/) page.
+Para mais informação em como reportar violações das «Diretrizes de Participação da Comunidade», por favor, consulte a página de [Como Reportar](https://www.mozilla.org/about/governance/policies/participation/reporting/).
