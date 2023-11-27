@@ -1,59 +1,59 @@
 # ----------------------------------------------------------------------------
-# MDN Content CODEOWNERS
+# PROPRIETÁRIOS DE CÓDIGO do conteúdo de MDN
 # ----------------------------------------------------------------------------
-# Order is important. The last matching pattern takes precedence. For more
-# detailed information, see:
+# Ordem é importante. O último padrão correspondente tem precedência. Para mais
+# informação detalhada, consulte:
 # https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------
-# DEFAULT OWNERS
+# PROPRIETÁRIOS PREDEFINIDOS
 # ----------------------------------------------------------------------------
 *    @mdn/core-dev
 
 # ----------------------------------------------------------------------------
-# DEFAULT CONTENT OWNER(S)
+# PROPRIETÁRIO(S) DE CONTEÚDO PREDEFINIDO(S)
 # ----------------------------------------------------------------------------
 /files/    @mdn/core-yari-content
 
 # ----------------------------------------------------------------------------
-# BRAZILIAN PORTUGUESE (pt-BR) CONTENT OWNER(S)
+# PROPRIETÁRIO(S) DE CONTEÚDO DE PORTUGUÊS (BRAZIL) (pt-BR)
 # ----------------------------------------------------------------------------
 /files/pt-br/    @mdn/yari-content-pt-br
 
 # ----------------------------------------------------------------------------
-# CHINESE (zh-CN, zh-TW) CONTENT OWNER(S)
+# PROPRIETÁRIO(S) DE CONTEÚDO DE CHINÊS (zh-CN, zh-TW)
 # ----------------------------------------------------------------------------
 /files/zh-cn/    @mdn/yari-content-zh
 /files/zh-tw/    @mdn/yari-content-zh
 
 # ----------------------------------------------------------------------------
-# FRENCH (fr) CONTENT OWNER(S)
+# PROPRIETÁRIO(S) DE CONTEÚDO DE FRANCÊS (fr)
 # ----------------------------------------------------------------------------
 /files/fr/    @mdn/yari-content-fr
 
 # ----------------------------------------------------------------------------
-# JAPANESE (ja) CONTENT OWNER(S)
+# PROPRIETÁRIO(S) DE CONTEÚDO DE JAPONÊS (ja)
 # ----------------------------------------------------------------------------
 /files/ja/    @mdn/yari-content-ja
 
 # ----------------------------------------------------------------------------
-# KOREAN (ko) CONTENT OWNER(S)
+# PROPRIETÁRIO(S) DE CONTEÚDO DE COREANO (ko)
 # ----------------------------------------------------------------------------
 /files/ko/    @mdn/yari-content-ko
 
 # ----------------------------------------------------------------------------
-# RUSSIAN (ru) CONTENT OWNER(S)
+# PROPRIETÁRIO(S) DE CONTEÚDO DE RUSSO (ru)
 # ----------------------------------------------------------------------------
 /files/ru/    @mdn/yari-content-ru
 
 # ----------------------------------------------------------------------------
-# SPANISH (es) CONTENT OWNER(S)
+# PROPRIETÁRIO(S) DE CONTEÚDO DE ESPANHOL (es)
 # ----------------------------------------------------------------------------
 /files/es/    @mdn/yari-content-es
 
 # ----------------------------------------------------------------------------
-# TRANSLATION GUIDE OWNER(S)
+# PROPRIETÁRIO(S) DE GUIAS DE TRADUÇÃO
 # ----------------------------------------------------------------------------
 /docs/        @mdn/core-yari-content
 /docs/ko/     @mdn/yari-content-ko
@@ -62,11 +62,11 @@
 /docs/zh-tw/  @mdn/yari-content-zh
 
 # ----------------------------------------------------------------------------
-# CONTROL FILES OWNER(S)
+# PROPRIETÁRIO(S) DE FICHEIROS DE CONTROLE
 # ----------------------------------------------------------------------------
-# These should be the last matches in this file, since any pull request that
-# tries to change any one or more of these files should be escalated to the
-# owners specified here.
+# Estas devem ser as últimas correspondências neste ficheiro, já que qualquer
+# pedido de ''pull'' tente alterar qualquer um ou mais destes ficheiros deverão
+# ser escalados com os proprietários específicos aqui.
 # ----------------------------------------------------------------------------
 /.github/     @mdn/core-dev
 /*            @mdn/core-dev
