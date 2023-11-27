@@ -1,21 +1,21 @@
-<!-- 🙌 Thanks for contributing to MDN Web Docs. Adding details below will help us to merge your PR faster. -->
+<!-- 🙌 Obrigado por contribuirem para MDN Web Docs. Adicionar detalhes abaixo irá ajudar-nos a unir o seu PR mais rapidamente. -->
 
-### Description
+### Descrição
 
-<!-- ✍️ Summarize your changes in one or two sentences -->
+<!-- ✍️ Resuma as suas alterações em uma ou duas frases -->
 
-### Motivation
+### Motivação
 
-<!-- ❓ Why are you making these changes and how do they help readers? -->
+<!-- ❓ Porque é que está a efetuar estas alterações e como elas ajudam os leitores? -->
 
-### Additional details
+### Detalhes adicionais
 
-<!-- 🔗 Link to release notes, vendor docs, bug trackers, source control, or other places providing more context -->
+<!-- 🔗 Hiperligação para as notas de lançamento, documentos da empresa, rastreadores de erros (''bug''), controlo da fonte, ou outros locais que fornecem mais contexto -->
 
-### Related issues and pull requests
+### Problemas relacionados e pedidos de ''pull''
 
-<!-- 🔨 If this fully resolves a GitHub issue, use "Fixes #123" -->
-<!-- 👉 Highlight related pull requests using "Relates to #123" -->
-<!-- ❗ If another pull request should be merged first, use "**Depends on:** #123" -->
+<!-- 🔨 Se isto resolver por completo um problema do GitHub, utilize "Corrige #123" -->
+<!-- 👉 Destaque pedidos de ''pull'' relacionados utilizando "Refere-se a #123" -->
+<!-- ❗ Se outro pedido de ''pull'' precisar de ser unido primeiro, utilize "**Depende de:** #123" -->
 
-<!-- 👷‍♀️ After submitting, go to the "Checks" tab of your PR for the build status -->
+<!-- 👷‍♀️ Depois de submeter, vá para o separador "Verificações" do seu PR para o estado da versão -->
