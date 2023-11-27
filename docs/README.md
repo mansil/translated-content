@@ -1,76 +1,75 @@
-# General guidelines for MDN translated content
+# Diretrizes gerais para o conteudo traduzido de MDN
 
-In this README you can find a collection of general guidelines for translating
-MDN content, which apply to every locale.
+Neste README pode encontrar uma coleção de diretrizes gerais para traduzir
+o conteúdo de MDN, que se aplicam a todos os idiomas.
 
-For guidelines relating to specific locales, we have locale-specific docs in
-subdirectories:
+Para diretrizes relacionadas com idiomas específicos, nós temos documentos
+específicos de idiomas nas subdiretorias:
 
-- [Russian translation guide / Участие в переводе](ru/translation-guide.md)
-- [Simplified Chinese Guide / 简体中文翻译指南](zh-cn/translation-guide.md)
-- [Traditional Chinese Guide / 正體中文翻譯指南](zh-tw/translation-guide.md)
-- [Spanish guide / Guía en español](es/README.md)
+- [Guia de tradução de russo / Участие в переводе](ru/translation-guide.md)
+- [Guia de chinês simplificado / 简体中文翻译指南](zh-cn/translation-guide.md)
+- [Guia de chinês tradicional / 正體中文翻譯指南](zh-tw/translation-guide.md)
+- [Guia em espanhol / Guía en español](es/README.md)
 
-If you want to add a guide to document some specific guidelines for your locale
-and it does not already appear here, you are welcome to add one, or
-[talk to the locale teams](https://github.com/mdn/translated-content/blob/main/PEERS_GUIDELINES.md#review-teams)
-about it. Similarly, if you can think of a good general guideline that you'd
-like to add here, feel free to create an issue to talk about it.
+Se quiser adicionar um guia para documentar algumas diretrizes específicas para o seu idioma
+e este ainda não aparece aqui, pode adicionar um, ou
+[falar com as equipas de tradução](https://github.com/mdn/translated-content/blob/main/PEERS_GUIDELINES.md#review-teams)
+sobre o mesmo. Da mesma forma, se conseguir pensar numa boa diretriz geral que
+gostaria de adicionar aqui, fique à vontade para criar um problema para falar sobre isso.
 
-## Translating heading IDs
+## Traduzir Ids. de Cabeçalho
 
-Our article headings are nearly always given IDs, so that we can automatically
-generate in-article navigation, identify code blocks to create live samples,
-and other reasons too. When translating headings, you don't need to translate
-the ID too; the rest of the slug is not translated, so this keeps it all
-consistent.
+Os nossos títulos de artigos quase sempre recebem Ids., para que nós possamos gerar
+automaticamente a navegação no artigo, identificar os blocos de código para criar 
+amostras ao vivo, e outras razões também. Ao traduzir os títulos, não precisa de traduzir
+a ID também; o resto da ''slug'' não é traduzida, então isto mantém tudo consistente.
 
-For example:
+Por exemplo:
 
 ```html
-<h2 id="tutorials">Tutorials</h2>
+<h2 id="tutorials">Tutoriais</h2>
 ```
 
-in the `fr` locale would be
+no idioma `fr` (francês) seria
 
 ```html
 <h2 id="tutorials">Tutoriels</h2>
 ```
 
-We generally advise that you write all IDs in lower-case. The platform
-automatically converts them at render time anyway, but keeping them lower-case
-means that there is less chance of a manually-created anchor link not working
-because of the conversion.
+Nós geralmente aconselhamos que escreva todas as Ids. em letras minúsculas. A plataforma
+converte-as automaticamente no momento da renderização de qualquer maneira, mas mantendo-as
+em letras minúsculas significa que há menos chance de uma hiperligação âncora criada manualmente
+não funcionar por causa da conversão.
 
-## Translating code blocks
+## Traduzir blocos de código
 
-When translating code blocks, it is fine to translate comments, strings,
-variable names, and output representations.
+Ao traduzir os blocos de código, não há problema em traduzir os comentários, entradas,
+nomes de variáveis ​​e representações de saída.
 
-However, don't translate actual code terms such as syntax. The example needs
-to still work after you are finished with it.
+Contudo, não traduza os termos do código atual, tal como, sintaxe. O exemplo precisa
+de ainda funcionar depois de terminar.
 
-Also, when considering translating examples, bear in mind that some examples
-will link to a live version or source code on a separate repo. You might also
-want to consider creating a translated version of the external code examples
-to link to from your translated page.
+Também, quando considerar a tradução dos exemplos, tenha em mente que alguns exemplos
+irão vincular a uma versão ativa ou código-fonte num repositório separado. Também pode
+desejar considerar a criação de uma versão traduzida dos exemplos de código externos
+para vincular a partir da sua página traduzida.
 
-## Line breaks in HTML source
+## Quebras de linha na fonte HTML
 
-In some of the article source code, you may find line breaks in the block-level
-elements that aren't strictly necessary, for example:
+Em algun código-fonte dos artigos, pode encontrar quebras de linha no nível do bloco
+de elementos que não são estritamente necessários, por exemplo:
 
 ```html
-<p>The
-  <strong><code>HTMLCanvasElement.transferControlToOffscreen()</code></strong>
-  method transfers control to an {{domxref("OffscreenCanvas")}} object, either on the main
-  thread or on a worker.</p>
+<p>O
+  método <strong><code>HTMLCanvasElement.transferControlToOffscreen()</code></strong>
+  transfere o controle para um objeto {{domxref("OffscreenCanvas")}}, quer seja no
+  ''thread'' principal ou num trabalhador.</p>
 
 <pre
   class="brush: js">OffscreenCanvas HTMLCanvasElement.transferControlToOffscreen()</pre>
 ```
 
-Generally we don't use line breaks like this in our source code, so you are
-free to remove them if you want to, and don't add them in when creating new
-translations. However, don't spend too much time trying to remove these, as
-they don't make any difference to the final rendered result.
+Geralmente nós não utilizamos as quebras de linha como esta no nosso código-fonte, então
+fique `avontade para removê-las se desejar e não as adicione quando criar novas traduções.
+No entanto, não perca muito tempo tentando removê-las, pois
+eles não fazem nenhuma diferença no resultado final renderizado.
