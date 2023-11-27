@@ -1,49 +1,49 @@
-# Contributing to the translated content of MDN Web Docs
+# Contribuir para o conteúdo traduzido de MDN Web Docs
 
-:tada: First of all, thanks for taking the time to contribute to
-[MDN Web Docs](https://developer.mozilla.org)’ translated content! :tada:
+:tada: Antes demais, obrigado obrigado por dedicarem o vosso tempo para contribuirem
+para o conteúdo traduzido de [MDN Web Docs](https://developer.mozilla.org)! :tada:
 
-The following is a set of guidelines for contributing to the
-[translated content of MDN Web Docs](https://github.com/mdn/translated-content),
-which is hosted within the [MDN Organization](https://github.com/mdn) on GitHub.
+A seguir está um conjunto de diretrizes para contribuir para o
+[conteúdo traduzido de MDN Web Docs](https://github.com/mdn/translated-content),
+que estão alojadas dentro da [Organização do MDN](https://github.com/mdn) no GitHub.
 
 [Guidelines for peers can be found here](PEERS_GUIDELINES.md).
 
-## Locales
+## Idiomas
 
-Before we go any further, you should be aware that we are only accepting updates
-to active locales — this means locales that have active community maintenance
-teams in place to review PRs, fix issues, make updates, etc. Currently the list
-of active locales is:
+Antes de continuar, deveriam estar cientes de que nós estamos a aceitar apenas as
+atualizações para os idiomas ativos — isto significa que os idiomas que têm manutenção
+ativa das equipas da comunidade em vigor para reverem PRs, corrigirem problemas, criarem
+atualizações, etc. Atualmente a lista dos idiomas ativos é:
 
 - `fr`
 - `ja`
 - `ko`
 - `pt-BR`
 - `ru`
-- `zh` (`zh-CN` and `zh-TW`)
+- `zh` (`zh-CN` e `zh-TW`)
 - `es`
 
-If you want to just find a task and jump in, search by the labels `l10n-fr`,
-`l10n-ja`, `l10n-ko`, `l10n-pt-br`, `l10n-ru`, `l10n-zh` and `l10n-es` in this repo’s
-[issues list](https://github.com/mdn/translated-content/issues),
-or the main [content repo issues](https://github.com/mdn/content/issues).
+Se quiser apenas encontrar uma tarefa e começar, pesquise pelas etiquetas `l10n-fr`,
+`l10n-ja`, `l10n-ko`, `l10n-pt-br`, `l10n-ru`, `l10n-zh` e `l10n-es` neste repositório
+da [lista de problemas](https://github.com/mdn/translated-content/issues),
+ou nos [problemas de repositório de conteúdo](https://github.com/mdn/content/issues) principal.
 
 ---
 
-## Code of Conduct
+## Código de Conduta
 
 Everyone participating in this project is expected to follow our
 [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## License
+## Licença
 
 When contributing to the content you agree to license your contributions
 according to [our license](LICENSE.md).
 
 ---
 
-## Making contributions
+## Contribuição
 
 A good place to learn about general guidelines for contributing to
 [MDN Web Docs](https://developer.mozilla.org) is the
@@ -51,7 +51,7 @@ A good place to learn about general guidelines for contributing to
 For example, you can find out more about MDN's writing-style guidelines via the
 [Writing style guide](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Writing_style_guide).
 
-### Setting up to edit
+### Configurar para editar
 
 This repo has exactly the same folder structure, concepts, and commands
 available to it as the [content repo](https://github.com/mdn/content), which
@@ -66,7 +66,7 @@ Now you need to fork and clone both the
  [content repo](https://github.com/mdn/content)
  and the translated-content repo (this repo).
 
-### Content repo setup
+### Configuração do repositório de conteúdo
 
 1. Once the above is done, cd into the content repo.
 
@@ -97,7 +97,7 @@ Now you need to fork and clone both the
 1. Now you’ve got this set up, enter the command `yarn start` to begin the local
    testing server running at `localhost:5042`.
 
-### Working in the translated-content repo
+### Trabalhar no repositório de conteúdo traduzido
 
 Over in the translated-content repo, decide what change you want to make, and
 then:
@@ -117,7 +117,7 @@ then:
    you can check on
    [What's Deployed](https://whatsdeployed.io/s/16d/mdn/translated-content).
 
-### For more info on editing this repo
+### Para mais informação na edição deste repositório
 
 For more information, we’d like to suggest that you go to the [content repo](https://github.com/mdn/content)
 and read its README file, particularly to learn about [fundamental concepts](https://github.com/mdn/content#fundamental-concepts),
